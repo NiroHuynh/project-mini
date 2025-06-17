@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --color-one: #FFC800;
+    --color-two: #103178;
+    --color-three: #13A05D;
+
+    --text-one: #5B6C9C;
+    --text-two: black;
+    --text-three: #BDBBBB;
+
+    --background-one: #F0F2F5;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: "Inria Serif", serif;
+}
+
+.contain{
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    position: relative;
+}
+
+
+
+.button-one{
+    width: 170px;
+    height: 50px;
+    padding: 15px 20px;
+    border-radius: 45px;
+    background-color: var(--color-one);
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    border: 1px solid var(--color-one);
+    display: inline-flex;
+    justify-content: center;
+    position: relative;
+}
+
+.button-one i{
+    position: relative;
+    top: 1px;
+    margin-left: 5px;
+    display: none;
+}
+
+.button-one:hover{
+    background-color: white;
+    color: var(--color-one);
+}
+
+.button-one:hover i{
+    display: inline;
+}
+
+
+.button-two{
+    width: 170px;
+    height: 50px;
+    padding: 15px 20px;
+    border-radius: 45px;
+    background-color: var(--color-two);
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    border: 1px solid var(--color-two);
+    display: inline-flex;
+    justify-content: center;
+    position: relative;
+}
+
+.button-two i{
+    position: relative;
+    top: 1px;
+    margin-left: 5px;
+    display: none;
+}
+
+.button-two:hover{
+    background-color: white;
+    color: var(--color-two);
+}
+
+.button-two:hover i{
+    display: inline;
+}
+
+
+.button-three{
+    width: 170px;
+    height: 50px;
+    padding: 15px 20px;
+    border-radius: 45px;
+    background-color: var(--color-three);
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    border: 1px solid var(--color-three);
+    display: inline-flex;
+    justify-content: center;
+    position: relative;
+}
+
+.button-three:hover{
+    background-color:   white;
+    color: var(--color-three);
+}
+
+
+@media (max-width:1200px) {
+    .contain{
+        max-width: 960px;
+    }
+}
+
+@media (max-width:960px) {
+    .contain{
+        max-width: 770px;
+    }
+}
+
+
+@media (max-width:770px) {
+    .contain{
+        max-width: 580px;
+    }
+}
