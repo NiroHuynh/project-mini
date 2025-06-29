@@ -113,7 +113,7 @@ header .inner-box .inner-box-bar .bar {
 
 
 .section-one {
-    background-image: url(/SoftWareM4/assets/images/background1.jpg);
+    background-image: url(../assets/images/background1.jpg);
     width: 100%;
     height: auto;
     background-size: cover;
@@ -885,7 +885,7 @@ header .inner-box .inner-box-bar .bar {
 }
 
 .section-ten .main {
-    background-image: url(/SoftWareM4/assets/images/background4.jpg);
+    background-image: url(../assets/images/background4.jpg);
     width: 100%;
     height: auto;
     background-size: cover;
