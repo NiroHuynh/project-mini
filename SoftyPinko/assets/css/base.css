@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root{
+    --bg-one: #FF589E;
+    --bg-two: #8261EE;
+    --bg-three: #F2F2FE;
+    --bg-four: white;
+    --bg-five: #777;
+    --bg-six: #AD7FDF; 
+
+
+    --text-one: #F2F2FE;
+    --text-two: #1E1E1E;
+    --text-three: #777;
+    --text-four: #FF589E;
+    --text-five: white;
+    --text-six: #8261EE;
+}
+
+::selection{
+    background-color: var(--bg-one);
+}
+
+@media (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1140px;
+    }
+}
+
+*{
+    font-family: "Raleway", sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+body{
+    position: relative;
+}
+
+
+.btn-one{
+    padding: 10px 30px;
+    border: 0px;
+    background-color: var(--bg-one);
+    color: var(--text-one);
+    border-radius: 45px;
+    display: flex;
+    justify-self: center;
+    transition: all 0.3s ease;
+}
+
+.btn-one:hover{
+    background-color: var(--bg-two);
+}
+
+
+/* box-title  */
+
+.box-title {
+    text-align: center;
+    padding: 50px 0px;
+    margin: 0px 300px;
+}
+
+.box-title .title {
+    font-size: 25px;
+    margin-bottom: 30px;
+    color: var(--text-one);
+}
+
+.box-title .desc {
+    color: var(--text-one);
+}
+
+
+
+@media (max-width:1200px) {
+    .box-title {
+        margin: 0px 150px;
+    }
+}
+
+@media (max-width:991.98px) {
+    .box-title {
+        margin: 0px;
+    }
+
+
+    .home-main{
+        margin-top: 0px;
+    }
+}
+
+
+/* End box-title  */
